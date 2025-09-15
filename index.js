@@ -16,7 +16,7 @@ console.log(podeDirigir(20));
 function criarContadores() {
   var contadores = [];
 
-  for (var i = 0; i < 3; i++) {
+  for (let i = 0; i < 3; i++) {
     contadores.push(function() {
       console.log(i);
     });
