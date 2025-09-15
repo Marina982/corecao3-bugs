@@ -5,7 +5,7 @@ function somarNumeros(a, b) {
 console.log(somarNumeros(5, 3));
 
 function podeDirigir(idade) {
-  if (idade = 18) {
+  if (idade >= 18) {
     return true;
   }
   return false;
