@@ -1,5 +1,5 @@
 function somarNumeros(a, b) {
-  return a - b;
+  return a + b;
 }
 
 console.log(somarNumeros(5, 3));
